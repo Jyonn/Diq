@@ -13,7 +13,7 @@ class Dictify:
         return key, yield_key
 
     def _get_all_public_attrs(self):
-        return [attr for attr in dir(self) if not attr.startswith('_')]
+        return [attr for attr in self.__dict__.keys() if not attr.startswith('_')]
 
     def dictify(self, *attrs):
         """
