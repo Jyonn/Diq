@@ -6,7 +6,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name='diq',
-    version='0.0.3',
+    version='0.1.0',
     keywords=['dict', 'class'],
     description='Pythonic Object Serializer',
     long_description=long_description,
