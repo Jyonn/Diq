@@ -44,8 +44,10 @@ print(user.dictify("username"))
 
 ### 3️⃣ Rename Fields
 
+```python
 print(user.dictify("username->user", "email->contact"))
 # {'user': 'john_doe', 'contact': 'john@example.com'}
+```
 
 ### 4️⃣ Custom Serialization for Specific Fields
 
